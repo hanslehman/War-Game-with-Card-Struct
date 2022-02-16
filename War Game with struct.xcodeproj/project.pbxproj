@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		827D9D6C27B6CAEE004C8DAF /* Button with Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button with Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827D9D6C27B6CAEE004C8DAF /* War Game with struct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Game with struct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827D9D6F27B6CAEE004C8DAF /* Button_with_ImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_with_ImagesApp.swift; sourceTree = "<group>"; };
 		827D9D7127B6CAEE004C8DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		827D9D7327B6CAF5004C8DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		827D9D7627B6CAF5004C8DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		827D9D7C27B6CAF6004C8DAF /* Button with ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button with ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827D9D7C27B6CAF6004C8DAF /* War Game with structTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Game with structTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827D9D8027B6CAF6004C8DAF /* Button_with_ImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_with_ImagesTests.swift; sourceTree = "<group>"; };
-		827D9D8627B6CAF6004C8DAF /* Button with ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button with ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827D9D8627B6CAF6004C8DAF /* War Game with structUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Game with structUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827D9D8A27B6CAF6004C8DAF /* Button_with_ImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_with_ImagesUITests.swift; sourceTree = "<group>"; };
 		827D9D8C27B6CAF6004C8DAF /* Button_with_ImagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_with_ImagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,9 +74,9 @@
 		827D9D6327B6CAEE004C8DAF = {
 			isa = PBXGroup;
 			children = (
-				827D9D6E27B6CAEE004C8DAF /* Button with Images */,
-				827D9D7F27B6CAF6004C8DAF /* Button with ImagesTests */,
-				827D9D8927B6CAF6004C8DAF /* Button with ImagesUITests */,
+				827D9D6E27B6CAEE004C8DAF /* War Game with struct */,
+				827D9D7F27B6CAF6004C8DAF /* War Game with structTests */,
+				827D9D8927B6CAF6004C8DAF /* War Game with structUITests */,
 				827D9D6D27B6CAEE004C8DAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,14 +84,14 @@
 		827D9D6D27B6CAEE004C8DAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				827D9D6C27B6CAEE004C8DAF /* Button with Images.app */,
-				827D9D7C27B6CAF6004C8DAF /* Button with ImagesTests.xctest */,
-				827D9D8627B6CAF6004C8DAF /* Button with ImagesUITests.xctest */,
+				827D9D6C27B6CAEE004C8DAF /* War Game with struct.app */,
+				827D9D7C27B6CAF6004C8DAF /* War Game with structTests.xctest */,
+				827D9D8627B6CAF6004C8DAF /* War Game with structUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		827D9D6E27B6CAEE004C8DAF /* Button with Images */ = {
+		827D9D6E27B6CAEE004C8DAF /* War Game with struct */ = {
 			isa = PBXGroup;
 			children = (
 				827D9D6F27B6CAEE004C8DAF /* Button_with_ImagesApp.swift */,
@@ -99,7 +99,7 @@
 				827D9D7327B6CAF5004C8DAF /* Assets.xcassets */,
 				827D9D7527B6CAF5004C8DAF /* Preview Content */,
 			);
-			path = "Button with Images";
+			path = "War Game with struct";
 			sourceTree = "<group>";
 		};
 		827D9D7527B6CAF5004C8DAF /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		827D9D7F27B6CAF6004C8DAF /* Button with ImagesTests */ = {
+		827D9D7F27B6CAF6004C8DAF /* War Game with structTests */ = {
 			isa = PBXGroup;
 			children = (
 				827D9D8027B6CAF6004C8DAF /* Button_with_ImagesTests.swift */,
 			);
-			path = "Button with ImagesTests";
+			path = "War Game with structTests";
 			sourceTree = "<group>";
 		};
-		827D9D8927B6CAF6004C8DAF /* Button with ImagesUITests */ = {
+		827D9D8927B6CAF6004C8DAF /* War Game with structUITests */ = {
 			isa = PBXGroup;
 			children = (
 				827D9D8A27B6CAF6004C8DAF /* Button_with_ImagesUITests.swift */,
 				827D9D8C27B6CAF6004C8DAF /* Button_with_ImagesUITestsLaunchTests.swift */,
 			);
-			path = "Button with ImagesUITests";
+			path = "War Game with structUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		827D9D6B27B6CAEE004C8DAF /* Button with Images */ = {
+		827D9D6B27B6CAEE004C8DAF /* War Game with struct */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 827D9D9027B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with Images" */;
+			buildConfigurationList = 827D9D9027B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with struct" */;
 			buildPhases = (
 				827D9D6827B6CAEE004C8DAF /* Sources */,
 				827D9D6927B6CAEE004C8DAF /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = "Button with Images";
+			name = "War Game with struct";
 			productName = "Button with Images";
-			productReference = 827D9D6C27B6CAEE004C8DAF /* Button with Images.app */;
+			productReference = 827D9D6C27B6CAEE004C8DAF /* War Game with struct.app */;
 			productType = "com.apple.product-type.application";
 		};
-		827D9D7B27B6CAF6004C8DAF /* Button with ImagesTests */ = {
+		827D9D7B27B6CAF6004C8DAF /* War Game with structTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 827D9D9327B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with ImagesTests" */;
+			buildConfigurationList = 827D9D9327B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with structTests" */;
 			buildPhases = (
 				827D9D7827B6CAF6004C8DAF /* Sources */,
 				827D9D7927B6CAF6004C8DAF /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				827D9D7E27B6CAF6004C8DAF /* PBXTargetDependency */,
 			);
-			name = "Button with ImagesTests";
+			name = "War Game with structTests";
 			productName = "Button with ImagesTests";
-			productReference = 827D9D7C27B6CAF6004C8DAF /* Button with ImagesTests.xctest */;
+			productReference = 827D9D7C27B6CAF6004C8DAF /* War Game with structTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		827D9D8527B6CAF6004C8DAF /* Button with ImagesUITests */ = {
+		827D9D8527B6CAF6004C8DAF /* War Game with structUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 827D9D9627B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with ImagesUITests" */;
+			buildConfigurationList = 827D9D9627B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with structUITests" */;
 			buildPhases = (
 				827D9D8227B6CAF6004C8DAF /* Sources */,
 				827D9D8327B6CAF6004C8DAF /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				827D9D8827B6CAF6004C8DAF /* PBXTargetDependency */,
 			);
-			name = "Button with ImagesUITests";
+			name = "War Game with structUITests";
 			productName = "Button with ImagesUITests";
-			productReference = 827D9D8627B6CAF6004C8DAF /* Button with ImagesUITests.xctest */;
+			productReference = 827D9D8627B6CAF6004C8DAF /* War Game with structUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 827D9D6727B6CAEE004C8DAF /* Build configuration list for PBXProject "Button with Images" */;
+			buildConfigurationList = 827D9D6727B6CAEE004C8DAF /* Build configuration list for PBXProject "War Game with struct" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				827D9D6B27B6CAEE004C8DAF /* Button with Images */,
-				827D9D7B27B6CAF6004C8DAF /* Button with ImagesTests */,
-				827D9D8527B6CAF6004C8DAF /* Button with ImagesUITests */,
+				827D9D6B27B6CAEE004C8DAF /* War Game with struct */,
+				827D9D7B27B6CAF6004C8DAF /* War Game with structTests */,
+				827D9D8527B6CAF6004C8DAF /* War Game with structUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		827D9D7E27B6CAF6004C8DAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 827D9D6B27B6CAEE004C8DAF /* Button with Images */;
+			target = 827D9D6B27B6CAEE004C8DAF /* War Game with struct */;
 			targetProxy = 827D9D7D27B6CAF6004C8DAF /* PBXContainerItemProxy */;
 		};
 		827D9D8827B6CAF6004C8DAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 827D9D6B27B6CAEE004C8DAF /* Button with Images */;
+			target = 827D9D6B27B6CAEE004C8DAF /* War Game with struct */;
 			targetProxy = 827D9D8727B6CAF6004C8DAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +433,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.Button-with-Images";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "War Game with struct";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +462,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.Button-with-Images";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "War Game with struct";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button with Images.app/Button with Images";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Game with struct.app/War Game with struct";
 			};
 			name = Debug;
 		};
@@ -505,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button with Images.app/Button with Images";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Game with struct.app/War Game with struct";
 			};
 			name = Release;
 		};
@@ -548,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		827D9D6727B6CAEE004C8DAF /* Build configuration list for PBXProject "Button with Images" */ = {
+		827D9D6727B6CAEE004C8DAF /* Build configuration list for PBXProject "War Game with struct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				827D9D8E27B6CAF6004C8DAF /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		827D9D9027B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with Images" */ = {
+		827D9D9027B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with struct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				827D9D9127B6CAF6004C8DAF /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		827D9D9327B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with ImagesTests" */ = {
+		827D9D9327B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with structTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				827D9D9427B6CAF6004C8DAF /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		827D9D9627B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "Button with ImagesUITests" */ = {
+		827D9D9627B6CAF6004C8DAF /* Build configuration list for PBXNativeTarget "War Game with structUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				827D9D9727B6CAF6004C8DAF /* Debug */,
